@@ -50,7 +50,7 @@ const Gallery = () => {
         </div>
 
         <div className="flex justify-center mb-12">
-          <div className="max-w-2xl w-full">
+          <div className="max-w-sm w-full mx-auto">
             <video 
               className="w-full h-auto rounded-lg shadow-lg"
               autoPlay
