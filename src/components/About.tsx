@@ -59,7 +59,7 @@ const About = () => {
               className="max-w-md w-full h-auto rounded-lg shadow-lg"
               autoPlay
               loop
-              muted
+              controls
               playsInline
             >
               <source src="/galeria/video2.mp4?v=2" type="video/mp4" />
