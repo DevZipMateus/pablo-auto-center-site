@@ -88,11 +88,11 @@ const Gallery = () => {
                               loading="lazy"
                             />
                           </DialogTrigger>
-                          <DialogContent className="max-w-4xl w-full">
+                          <DialogContent className="max-w-2xl w-full p-2">
                             <img
                               src={image}
                               alt={`Foto da galeria ${index + 1}`}
-                              className="w-full h-auto rounded-lg"
+                              className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
                             />
                           </DialogContent>
                         </Dialog>
