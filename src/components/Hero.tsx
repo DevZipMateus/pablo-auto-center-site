@@ -41,7 +41,7 @@ const Hero = () => {
 
             {/* Features Grid */}
             <div className="grid grid-cols-2 gap-4">
-              {features.map((feature, index) => <div key={index} className="flex items-center space-x-3 p-3 rounded-lg bg-card border">
+              {features.map((feature, index) => <div key={index} className="flex items-center space-x-3 p-3 rounded-lg border bg-[#fdfdfd]/45">
                   <feature.icon className="w-6 h-6 text-accent" />
                   <span className="text-sm font-medium">{feature.text}</span>
                 </div>)}
