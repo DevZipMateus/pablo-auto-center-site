@@ -20,7 +20,7 @@ const Gallery = () => {
               muted
               playsInline
             >
-              <source src="/galeria/video2.mp4" type="video/mp4" />
+              <source src="/galeria/video1.mp4" type="video/mp4" />
               Seu navegador não suporta o elemento de vídeo.
             </video>
           </div>
