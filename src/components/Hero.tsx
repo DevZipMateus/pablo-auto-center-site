@@ -15,7 +15,7 @@ const Hero = () => {
       id="inicio" 
       className="pt-20 min-h-screen relative bg-gradient-to-br from-background via-background to-accent/5"
       style={{
-        backgroundImage: 'url(/hero-background.jpg)',
+        backgroundImage: `url(/hero-background.jpg?v=${Date.now()})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
