@@ -27,13 +27,13 @@ const Hero = () => {
           {/* Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
+              <h1 className="text-4xl font-bold leading-tight text-slate-50 lg:text-6xl">
                 Pablo Auto Center
               </h1>
-              <h2 className="text-xl lg:text-2xl text-muted-foreground">
+              <h2 className="text-xl text-slate-50 lg:text-2xl">
                 Especialista em Jeep Compass, Renegade e Suzuki Jimny com 15 anos de experiência
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg leading-relaxed text-zinc-50">
                 Somos uma empresa moderna e altamente experiente, com compromisso com a segurança dos nossos clientes. 
                 Buscamos entregar excelência em peças e serviços para manutenção dos veículos que carregam a vida dos nossos clientes.
               </p>
