@@ -55,28 +55,40 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent/5 border-accent/20">
-              <h4 className="text-xl font-bold text-foreground mb-4">Nossos diferenciais</h4>
-              <ul className="space-y-3">
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Especialização total na linha Jeep nacional</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Diagnóstico eletrônico avançado</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Manutenção preventiva e corretiva</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Atendimento personalizado</span>
-                </li>
-              </ul>
-            </Card>
+            <video 
+              className="w-full h-auto rounded-lg shadow-lg"
+              controls
+              preload="metadata"
+            >
+              <source src="/galeria/video1.mp4" type="video/mp4" />
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
           </div>
+        </div>
+
+        {/* Nossos Diferenciais */}
+        <div className="mb-16">
+          <Card className="p-8 bg-gradient-to-br from-accent/10 to-accent/5 border-accent/20 max-w-4xl mx-auto">
+            <h4 className="text-2xl font-bold text-foreground mb-6 text-center">Nossos diferenciais</h4>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="flex items-center space-x-3">
+                <div className="w-3 h-3 bg-accent rounded-full"></div>
+                <span className="text-lg">Especialização total na linha Jeep nacional</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-3 h-3 bg-accent rounded-full"></div>
+                <span className="text-lg">Diagnóstico eletrônico avançado</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-3 h-3 bg-accent rounded-full"></div>
+                <span className="text-lg">Manutenção preventiva e corretiva</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-3 h-3 bg-accent rounded-full"></div>
+                <span className="text-lg">Atendimento personalizado</span>
+              </div>
+            </div>
+          </Card>
         </div>
 
         {/* Highlights Grid */}
