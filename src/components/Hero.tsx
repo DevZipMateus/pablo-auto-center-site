@@ -11,8 +11,18 @@ const Hero = () => {
   ];
 
   return (
-    <section id="inicio" className="pt-20 min-h-screen bg-gradient-to-br from-background via-background to-accent/5">
-      <div className="container mx-auto px-4 py-16">
+    <section 
+      id="inicio" 
+      className="pt-20 min-h-screen relative bg-gradient-to-br from-background via-background to-accent/5"
+      style={{
+        backgroundImage: 'url(/hero-background.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      <div className="absolute inset-0 bg-pablo-black/60"></div>
+      <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8">
