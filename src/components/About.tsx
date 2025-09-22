@@ -54,9 +54,9 @@ const About = () => {
             </p>
           </div>
 
-          <div className="relative">
+          <div className="relative flex justify-center">
             <video 
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="max-w-md w-full h-auto rounded-lg shadow-lg"
               controls
               preload="metadata"
             >
