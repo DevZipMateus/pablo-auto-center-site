@@ -53,8 +53,9 @@ const Gallery = () => {
           <div className="max-w-2xl w-full">
             <video 
               className="w-full h-auto rounded-lg shadow-lg"
-              controls
+              autoPlay
               loop
+              muted
               playsInline
             >
               <source src="/galeria/video1.mp4?v=2" type="video/mp4" />

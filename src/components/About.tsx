@@ -57,8 +57,9 @@ const About = () => {
           <div className="relative flex justify-center">
             <video 
               className="max-w-md w-full h-auto rounded-lg shadow-lg"
+              autoPlay
               loop
-              controls
+              muted
               playsInline
             >
               <source src="/galeria/video2.mp4?v=2" type="video/mp4" />
