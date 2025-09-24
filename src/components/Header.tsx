@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -43,7 +43,7 @@ const Header = () => {
             <button
               key={item.label}
               onClick={() => scrollToSection(item.href)}
-              className="text-foreground hover:text-accent transition-colors duration-200 font-medium"
+              className="text-white hover:text-accent transition-colors duration-200 font-medium"
             >
               {item.label}
             </button>
@@ -54,7 +54,7 @@ const Header = () => {
         <div className="hidden lg:flex items-center space-x-4">
           <div className="flex items-center space-x-2 text-sm">
             <Phone className="w-4 h-4 text-accent" />
-            <span>(93) 99227-4247</span>
+            <span className="text-white">(93) 99227-4247</span>
           </div>
           <Button
             variant="default"
@@ -73,22 +73,22 @@ const Header = () => {
           aria-label="Toggle menu"
         >
           {isMenuOpen ? (
-            <X className="w-6 h-6" />
+            <X className="w-6 h-6 text-white" />
           ) : (
-            <Menu className="w-6 h-6" />
+            <Menu className="w-6 h-6 text-white" />
           )}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-background border-t border-border">
+        <div className="md:hidden bg-black border-t border-border">
           <nav className="container mx-auto px-4 py-4 space-y-4">
             {menuItems.map((item) => (
               <button
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="block w-full text-left text-foreground hover:text-accent transition-colors duration-200 font-medium py-2"
+                className="block w-full text-left text-white hover:text-accent transition-colors duration-200 font-medium py-2"
               >
                 {item.label}
               </button>
@@ -96,7 +96,7 @@ const Header = () => {
             <div className="pt-4 border-t border-border">
               <div className="flex items-center space-x-2 text-sm mb-3">
                 <Phone className="w-4 h-4 text-accent" />
-                <span>(93) 99227-4247</span>
+                <span className="text-white">(93) 99227-4247</span>
               </div>
               <Button
                 variant="default"
