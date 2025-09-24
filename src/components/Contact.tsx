@@ -26,8 +26,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Endereço",
-      value: "Av. Sérgio Henn, 1018 - Jardim Santarém, Santarém-PA",
-      action: () => window.open("https://maps.app.goo.gl/T11PgjKLNAmwbabNA", "_blank")
+      value: "Av. Sérgio Henn, 1028 - Jardim Santarém, Santarém - PA, 68020-590",
+      action: () => window.open("https://maps.google.com/maps?q=Av.+Sérgio+Henn,+1028+-+Jardim+Santarém,+Santarém+-+PA,+68020-590", "_blank")
     },
     {
       icon: Clock,
@@ -122,7 +122,7 @@ const Contact = () => {
             </h3>
             <Card className="p-0 overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.1234567890123!2d-54.7234567890123!3d-2.4234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMjUnMjUuMCJTIDU0wrA0MycyNS4wIlc!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps?q=Av.+Sérgio+Henn,+1028+-+Jardim+Santarém,+Santarém+-+PA,+68020-590&output=embed"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -135,7 +135,7 @@ const Contact = () => {
               <div className="p-4 bg-card">
                 <Button
                   variant="outline"
-                  onClick={() => window.open("https://maps.app.goo.gl/T11PgjKLNAmwbabNA", "_blank")}
+                  onClick={() => window.open("https://maps.google.com/maps?q=Av.+Sérgio+Henn,+1028+-+Jardim+Santarém,+Santarém+-+PA,+68020-590", "_blank")}
                   className="w-full border-accent/60 text-accent hover:bg-accent hover:text-accent-foreground"
                 >
                   <MapPin className="w-4 h-4 mr-2" />

@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5" />
-                <span>Av. Sérgio Henn, 1018<br />Jardim Santarém, Santarém-PA</span>
+                <span>Av. Sérgio Henn, 1028<br />Jardim Santarém, Santarém - PA, 68020-590</span>
               </div>
             </div>
           </div>
