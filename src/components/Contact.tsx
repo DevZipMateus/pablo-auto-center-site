@@ -27,7 +27,7 @@ const Contact = () => {
       icon: MapPin,
       title: "Endereço",
       value: "Av. Sérgio Henn, 1028 - Jardim Santarém, Santarém - PA, 68020-590",
-      action: () => window.open("https://maps.google.com/maps?q=Av.+Sérgio+Henn,+1028+-+Jardim+Santarém,+Santarém+-+PA,+68020-590", "_blank")
+      action: () => window.open("https://www.google.com/maps/place/Pablo+Auto+Center/@-2.4404246,-54.7143187,17.42z/data=!4m6!3m5!1s0x9288f98fbec1fd73:0x2073d7522346474!8m2!3d-2.4401718!4d-54.71386!16s%2Fg%2F11n0t9x0h6?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D", "_blank")
     },
     {
       icon: Clock,
@@ -122,7 +122,7 @@ const Contact = () => {
             </h3>
             <Card className="p-0 overflow-hidden">
               <iframe
-                src="https://www.google.com/maps?q=Av.+Sérgio+Henn,+1028,+Jardim+Santarém,+Santarém,+PA,+68020-590&output=embed"
+                src="https://www.google.com/maps?q=-2.4401718,-54.71386&output=embed&z=17"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -135,7 +135,7 @@ const Contact = () => {
               <div className="p-4 bg-card">
                 <Button
                   variant="outline"
-                  onClick={() => window.open("https://maps.google.com/maps?q=Av.+Sérgio+Henn,+1028+-+Jardim+Santarém,+Santarém+-+PA,+68020-590", "_blank")}
+                  onClick={() => window.open("https://www.google.com/maps/place/Pablo+Auto+Center/@-2.4404246,-54.7143187,17.42z/data=!4m6!3m5!1s0x9288f98fbec1fd73:0x2073d7522346474!8m2!3d-2.4401718!4d-54.71386!16s%2Fg%2F11n0t9x0h6?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D", "_blank")}
                   className="w-full border-accent/60 text-accent hover:bg-accent hover:text-accent-foreground"
                 >
                   <MapPin className="w-4 h-4 mr-2" />
