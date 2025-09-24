@@ -16,7 +16,7 @@ const Hero = () => {
     text: "Padrão elevado"
   }];
   return <section id="inicio" className="pt-20 min-h-screen relative bg-gradient-to-br from-background via-background to-accent/5" style={{
-    backgroundImage: `url(/hero-background.jpg?v=${Date.now()})`,
+    backgroundImage: `url(/lovable-uploads/7e69b8e0-38e7-4574-adbf-3224459b8972.png)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat'
