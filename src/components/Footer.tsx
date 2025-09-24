@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <img 
-              src="/logo-pablo.png" 
+              src="/lovable-uploads/3e5aa8b9-6bed-4d14-b49c-eea602431317.png" 
               alt="Pablo Auto Center" 
               className="h-16 w-auto"
             />
