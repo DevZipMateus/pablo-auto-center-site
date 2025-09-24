@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="flex flex-col items-center justify-center text-center min-h-[80vh]">
           {/* Content */}
-          <div className="space-y-8 max-w-4xl mt-auto">
+          <div className="space-y-8 max-w-4xl">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold leading-tight text-slate-50 lg:text-6xl">
                 Pablo Auto Center
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg" onClick={() => window.open("https://wa.me/5593992274247", "_blank")}>
                 Falar no WhatsApp
               </Button>
