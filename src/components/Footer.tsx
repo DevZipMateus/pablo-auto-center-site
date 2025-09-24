@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="space-y-4">
             <img 
               src="/lovable-uploads/3e5aa8b9-6bed-4d14-b49c-eea602431317.png" 
-              alt="Pablo Auto Center" 
+              alt="Pablo Jeep" 
               className="h-16 w-auto"
             />
             <p className="text-sm opacity-90">
@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-70">
-            © 2024 Pablo Auto Center. Todos os direitos reservados.
+            © 2024 Pablo Jeep. Todos os direitos reservados.
           </p>
         </div>
       </div>

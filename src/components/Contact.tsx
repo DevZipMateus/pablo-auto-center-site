@@ -48,7 +48,7 @@ const Contact = () => {
       icon: Facebook,
       name: "Facebook",
       url: "https://www.facebook.com/p/Pablo-Auto-Center-100061038021774/",
-      handle: "Pablo Auto Center"
+      handle: "Pablo Jeep"
     }
   ];
 
@@ -130,7 +130,7 @@ const Contact = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-full h-96"
-                title="Localização da Pablo Auto Center"
+                title="Localização da Pablo Jeep"
               ></iframe>
               <div className="p-4 bg-card">
                 <Button

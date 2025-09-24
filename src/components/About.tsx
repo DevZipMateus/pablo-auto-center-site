@@ -30,7 +30,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Sobre a Pablo Auto Center
+            Sobre a Pablo Jeep
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Especializada na linha Jeep nacional, somos referência em manutenção automotiva em Santarém-PA
@@ -43,7 +43,7 @@ const About = () => {
               Compromisso com a excelência
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              A Pablo Auto Center é uma empresa moderna e altamente experiente, especializada em veículos 
+              A Pablo Jeep é uma empresa moderna e altamente experiente, especializada em veículos 
               Jeep Compass, Renegade e Suzuki Jimny. Nosso compromisso é com a segurança dos nossos clientes, 
               oferecendo confiança e qualidade em cada serviço.
             </p>

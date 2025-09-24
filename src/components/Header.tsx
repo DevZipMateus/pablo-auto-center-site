@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex items-center">
           <img 
             src="/lovable-uploads/3e5aa8b9-6bed-4d14-b49c-eea602431317.png" 
-            alt="Pablo Auto Center" 
+            alt="Pablo Jeep" 
             className="h-12 w-auto"
           />
         </div>

@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="space-y-6 md:space-y-8 max-w-4xl w-full bg-black/50 backdrop-blur-sm rounded-xl p-6 md:p-8">
             <div className="space-y-3 md:space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-50">
-                Pablo Auto Center
+                Pablo Jeep
               </h1>
               <h2 className="text-lg sm:text-xl md:text-xl lg:text-2xl text-slate-50 px-2">
                 Especialista em Jeep Compass, Renegade e Suzuki Jimny com 15 anos de experiência

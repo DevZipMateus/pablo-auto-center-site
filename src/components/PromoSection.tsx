@@ -6,14 +6,14 @@ const PromoSection = () => {
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img 
               src="/promo-jimny.jpg" 
-              alt="Especialista em veículos 4x4 e Suzuki Jimny - Pablo Auto Center" 
+              alt="Especialista em veículos 4x4 e Suzuki Jimny - Pablo Jeep" 
               className="w-full h-auto object-cover"
             />
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img 
               src="/promo-compass.jpg" 
-              alt="Especialista em Jeep Renegade e Compass - Pablo Auto Center" 
+              alt="Especialista em Jeep Renegade e Compass - Pablo Jeep" 
               className="w-full h-auto object-cover"
             />
           </div>
